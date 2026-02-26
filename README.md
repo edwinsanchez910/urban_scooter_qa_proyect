@@ -47,6 +47,28 @@ I identified several **Blocker** and **High-Severity** defects during the execut
 ## 🎯 Career & Professional Goals
 Having successfully completed this intensive Bootcamp, I am now moving into the **Career Acceleration Program**. 
 * **Focus:** International QA opportunities (United States / Spain).
+
+* ---
+
+## 📸 Project Evidence & Visual Artifacts
+
+Para demostrar la profundidad del análisis, aquí incluyo los diagramas y evidencias clave del proyecto:
+
+### 1. Mind Map - System Architecture
+![Mind Map](images/mapa_mental.png)
+*Visualización de todos los módulos y funcionalidades de Urban Scooter.*
+
+### 2. System Flowchart - User Journey
+![Flowchart](images/diagrama_flujo.png)
+*Lógica de decisión y flujos del sistema para el proceso de pedido.*
+
+### 3. Critical Bug Evidence (PUS-24)
+![Bug Evidence](images/evidencia_error.png)
+*Captura de pantalla de la falla en las notificaciones en el emulador Android.*
+
+### 4. API Testing Execution
+![API Testing](images/postman_api.png)
+*Validación de endpoints y códigos de estado en Postman.*
 * **Current Path:** Enhancing English proficiency and advancing into Test Automation (Selenium/Cypress).
 
 ---
