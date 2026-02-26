@@ -1,55 +1,53 @@
-** 🛵 Urban Scooter QA Project - Final Certification (Cohorte 59)
+# 🛵 Urban Scooter QA Project - Final Certification (Cohorte 59)
 
-👤 Quality Assurance Engineer: Edwin Sánchez
-"Discipline and resilience are the foundations of high-quality software."
+## 👤 Quality Assurance Engineer: Edwin Sánchez
+> *"Discipline and resilience are the foundations of high-quality software."*
 
-📖 Project Overview
-This repository contains the complete testing documentation for the Urban Scooter platform. I managed the end-to-end Quality Assurance process, from requirement analysis to final bug reporting, ensuring a seamless experience for both users and couriers.
+---
 
-🛠️ Technical Toolkit
-Methodologies: Black Box Testing, Boundary Value Analysis (BVA), Equivalence Partitioning.
+## 📖 Project Overview
+This repository contains the complete testing documentation for the **Urban Scooter** platform. I managed the end-to-end Quality Assurance process, from requirement analysis to final bug reporting, ensuring a seamless experience for both users and couriers across web and mobile environments.
 
-Tools: SQL (PostgreSQL), Postman (API Testing), Draw.io (Mind Maps & Flowcharts), Google Sheets.
+## 🛠️ Technical Toolkit
+* **Methodologies:** Black Box Testing, Boundary Value Analysis (BVA), Equivalence Partitioning, Regression Testing.
+* **Tools:** SQL (PostgreSQL), Postman (API Testing), Draw.io (Mind Maps & Flowcharts), Google Sheets.
+* **Environments Tested:** Mobile (Android Studio API 28 "Pie"), Web (Google Chrome & Opera).
 
-Documentation: Test Plans, Checklists, and Bug Reports.
+## 📊 Strategic Tasks Executed
 
-📊 Strategic Tasks Executed
-1️⃣ Requirement Analysis & SQL (Task 1)
-Validated business logic through complex SQL queries.
+### 1️⃣ Requirement Analysis & SQL (Task 1)
+* Validated complex business logic using **SQL queries**.
+* Performed feasibility analysis for test automation vs. manual testing, prioritizing ROI and project stability.
 
-Analyzed project feasibility for automation vs. manual testing.
+### 2️⃣ UI/UX & Data Validation (Task 2)
+* **Checklists:** Designed for "Order Status" and "Main Header" modules.
+* **Boundary Value Analysis:** Applied to critical input fields to ensure data integrity.
+* **Visual Documentation:** Developed system flowcharts and mind maps to visualize complex user journeys.
 
-2️⃣ UI/UX & Data Validation (Task 2)
-Checklists: Designed for "Order Status" and "Main Header" modules.
+### 3️⃣ Test Case Design & Execution (Task 3)
+* Designed and executed high-priority test cases for mobile devices.
+* Identified critical inconsistencies in environment-specific behaviors (Chrome vs. Android).
 
-BVA & Equivalence: Applied to critical input fields (Names, Comments, Dates).
+### 4️⃣ API Testing & Documentation (Task 4)
+* Validated REST endpoints for courier and order management.
+* Verified status codes (200, 201, 400, 404) and confirmed JSON response accuracy against technical specifications.
 
-Visual Artifacts: Created Mind Maps and Flowcharts for system logic.
+---
 
-3️⃣ Test Case Design & Execution (Task 3)
-Designed 10+ High-Priority Test Cases for mobile (Android Studio - API 28) and web environments.
+## 🐞 Top Critical Bug Reports
+I identified several **Blocker** and **High-Severity** defects during the execution phase:
 
-Executed cross-browser testing (Chrome vs. Opera) to identify environment-specific blockers.
+* **[PUS-24] - [CRITICAL] Push Notification Failure:** A backend defect prevented notifications from being triggered on Android, a critical gap for courier operations.
+* **[PUS-22] - [BLOCKER] Order Button Failure:** The "Order" button was non-functional in Google Chrome, completely preventing user conversions.
+* **[PUS-25] - Data Validation Risk:** Lack of field sanitization in "Courier Creation," allowing unauthorized special characters and threatening database integrity.
+* **[PUS-23] - UX Inconsistency:** UI label mismatch ("OK" button vs. expected requirements) in the "No Internet" modal.
 
-4️⃣ API Testing (Task 4)
-Validated REST endpoints (GET, POST) for courier and order management.
+---
 
-Verified status codes (200, 201, 400, 404) and JSON response integrity.
+## 🎯 Career & Professional Goals
+Having successfully completed this intensive Bootcamp, I am now moving into the **Career Acceleration Program**. 
+* **Focus:** International QA opportunities (United States / Spain).
+* **Current Path:** Enhancing English proficiency and advancing into Test Automation (Selenium/Cypress).
 
-🐞 Top Critical Bug Reports
-I identified several Blocker and High-Severity defects that were critical for production:
-
-[PUS-24] - Notification Trigger Failure: Push notifications were not sent to couriers even when conditions were met (Backend issue).
-
-[PUS-22] - [BLOCKER] Button Failure: The "Order" button was non-functional in Google Chrome, preventing any user conversion.
-
-[PUS-25] - Input Validation: Lack of sanitization in the "Login" field, allowing unauthorized special characters.
-
-🎯 Next Steps: Career Acceleration
-Having completed 100% of the Bootcamp, I am now focused on:
-
-Career Acceleration Program.
-
-International QA opportunities (US/Spain).
-
-Continuous learning in Automation (Selenium/Cypress).
+---
+**"He's doing something" - Committed to Engineering Excellence.**
